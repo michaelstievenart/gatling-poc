@@ -3,6 +3,7 @@ package co.za.gatling.poc.model
 import javax.persistence.*
 
 @Entity
+@Table(name = "persons")
 class Person {
 
     @Id
