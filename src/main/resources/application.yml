@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gatling-poc
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:h2:file:./target/h2db/db/app;DB_CLOSE_DELAY=-1
+    username: app
+    password:
+    hikari:
+      poolName: Hikari
+      auto-commit: false
+
+server:
+  port: 8080

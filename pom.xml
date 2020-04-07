@@ -36,6 +36,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- DATABASE DEPENDENCIES -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+
         <!-- JACKSON DEPENDENCIES -->
         <dependency>
             <groupId>com.fasterxml.jackson.module</groupId>
