@@ -30,7 +30,7 @@ class ApplicationSimulation extends Simulation {
       )
     }
 
-  setUp(scn.inject(atOnceUsers(1)))
+  setUp(scn.inject(atOnceUsers(3)))
     .protocols(httpProtocol)
     .assertions(
       global.responseTime.max.lt(400),
